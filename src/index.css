@@ -1,0 +1,21 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background: url('./assets/bliss.png');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}

@@ -1,0 +1,94 @@
+.notepad-window {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 50vh;
+    border: 2px solid #0055E5;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 3vh;
+    background: #0055E5;
+    color: white;
+}
+
+.top-bar img {
+    width: 1vw;
+    height: 2.4vh;
+    justify-self: flex-start;
+}
+
+.top-bar p {
+    margin-left: 0.2vw;
+    text-shadow: 1px 1px 2px black;
+    text-wrap: nowrap;
+    justify-self: flex-start;
+}
+
+.top-bar a {
+    margin-left: 0.5vw;
+    text-decoration: none;
+    color: white;
+    width: 1vw;
+    height: 1vw;
+    background: rgb(151,180,249);
+    background: linear-gradient(163deg, rgba(151,180,249,1) 0%, rgba(0,69,211,1) 100%);
+    border: white solid 1px;
+    border-bottom: white solid 2px;
+    border-right: white solid 2px;
+    text-align: center;
+}
+
+
+.top-bar a:last-child {
+    background: red;
+}
+
+.top-bar p+a {
+    margin-left: auto;
+}
+
+.tool-bar {
+    width: 100%;
+    height: 2.5vh;
+    display: flex;
+    margin: 0;
+    padding-top: 0.7vh;
+    background: #ECE9D8;
+    border-bottom: 1px solid #0055E5;
+}
+
+.tool-bar p {
+    margin: 0;
+    margin-right: 0.75vw;
+    font-size: 14px;
+}
+
+.tool-bar p:first-child {
+    margin-left: 0.5vw;
+}
+
+.tool-bar p:hover {
+    background-color: rgba(151,180,249,0.6);
+}
+
+.main-window {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    text-wrap: wrap;
+    background: #DAE4D9;
+}
+
+.main-window p {
+    margin: 0;
+    padding-top: 0.5vh;
+}
