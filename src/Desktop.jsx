@@ -37,7 +37,7 @@ function Desktop() {
                     <br /><br /><br />
                 </li>
                 <li>
-                    <a href="https://drive.google.com/file/d/103hDUzbgcmOc0E26InaC4-cHxRu0REop/view?usp=sharing" target='_blank'>
+                    <a href="" target='_blank'>
                         <img src={PDF} alt="" /><br />
                         <span>Resume</span>
                     </a>
