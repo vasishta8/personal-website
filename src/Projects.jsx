@@ -42,6 +42,8 @@ function Projects() {
             </div>
             <div className="main-window">
                 <a href="https://github.com/vasishta8/recharge" target='_blank' className="image-link"><img src={GitImage} alt="Git Image"/>Recharge: A Mobile Shop</a>
+                <a href="https://github.com/vasishta8/football-analyser" target='_blank' className="image-link"><img src={GitImage} alt="Git Image"/>Football Analyser</a>
+                <a href="https://github.com/vasishta8/project-euler" target='_blank' className="image-link"><img src={GitImage} alt="Git Image"/>Project Euler Solutions</a>    
                 <a href="https://github.com/vasishta8/personal-website" target='_blank' className="image-link"><img src={GitImage} alt="Git Image"/>Personal Website</a>
                 <a href="https://github.com/vasishta8/blackjack-cli" target='_blank' className="image-link"><img src={GitImage} alt="Git Image"/>Blackjack Simulator</a>
                 <a href="https://github.com/vasishta8/object-detection" target='_blank' className="image-link"><img src={GitImage} alt="Git Image"/>Object Detection</a>
